@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">CoronaApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_info">Info</string>
+    <string name="title_mapa">Mapa</string>
+    <string name="title_predic">Predicción</string>
+
+    <string name="logodesc">Logo de medidas actuales</string>
+    <string name="logodesc2">Logo de consejos de higiene</string>
+    <string name="header1">Mantente y mantén a los demás a salvo</string>
+    <string name="header2">Refuerza la seguridad de tu entorno</string>
+    <string name="header3">Normas básicas de buena higiene</string>
+    <string name="header4">Qué debe hacer si se siente mal</string>
+
+    <string name="sector1">Sector sanitario de Zaragoza 1</string>
+    <string name="sector2">Sector sanitario de Zaragoza 2</string>
+    <string name="sector3">Sector sanitario de Zaragoza 2</string>
+
+    <string name="medida1">
+        <ul><b> • Hostelería, restauración y ocio nocturno:</b>
+            ampliación del horario de apertura hasta las <b>00.00</b>,
+            con un 50% del aforo en el interior y 100% en las terrazas,
+            con 2 metros de distancia entre mesas y <b>seis personas en interior
+            y 10 en el exterior</b> por mesa. Está prohibido fumar en las terrazas.\n\n</ul>
+        <ul><b> • Reuniones sociales, tanto en el ámbito público como privado:</b>
+            se permite un máximo de 10 personas.\n\n</ul>
+        <ul><b> • Comercios minorista y grandes superficies:</b>
+            se permite un aforo máximo del 50%.\n\n</ul>
+        <ul><b> • Piscinas al aire libre:</b>
+            se permite un 50% del aforo.\n\n</ul>
+        <ul><b> • Gimnasios: </b>
+           pasa del 30% al 50% como aforo máximo y grupos de 10 personas en las actividades.\n\n</ul>
+        <ul><b> • Culto: </b>
+            aforo del 50% y se permite el canto.\n\n</ul>
+        <ul><b> • Entierros y velatorios: </b>
+           máxima 25 personas en exterior y 15 en interior.\n\n</ul>
+        <ul><b> • Mercadillos: </b>
+            100% de los puestos. El aforo del recinto no podrá superar el de dos personas por cada cinco metros cuadrados.\n\n</ul>
+        <ul><b> • Competiciones deportivas: </b>
+            Se permite público, también en las competiciones de menores de 16 años, con el 50% de aforo.\n\n</ul>
+        <ul><b> • Cines, museos y salas de exposiciones: </b>
+            50% de aforo. 20 personas en las actividades guiadas. En las salas con butacas preasignadas,
+            distancias de metro y medio o butacas alternas.\n\n</ul>
+        <ul><b> • Salas de juego: </b>
+            cierre a las 00.00. 50% de aforo.\n\n</ul>
+        <ul><b> • Celebraciones (bodas, bautizos, comuniones…): </b>
+            40 personas en el interior y 70 personas en el exterior.\n\n</ul>
+        <ul><b> • Grandes eventos: </b>
+            más de 500 personas en interior o más de 1.000 en exterior requerirán de autorización previa.\n\n</ul>
+        <ul><b> • Plazas, recintos e instalaciones taurinas: </b>
+            50% de aforo, con butacas preasignadas, con distancias de metro y medio o butacas alternas.\n\n</ul>
+        <ul><b> • Salas de concierto: </b>
+            aforo del 50% y se permite el canto.\n\n</ul>
+        <ul><b> • Atracciones de feria: </b>
+            50% de aforo en cada atracción.\n\n</ul>
+        <ul><b> • Reuniones de órganos de gobierno, conferencias, congresos: </b>
+            50% del aforo hasta un máximo de 500 personas.\n\n</ul>
+        <ul><b> • Actividades de guía turístico: </b>
+            20 personas.\n\n</ul>
+    </string>
+    <string name="tab1">Guía</string>
+    <string name="tab2">Sector I</string>
+    <string name="tab3">Sector II</string>
+    <string name="tab4">Sector II</string>
+
+</resources>

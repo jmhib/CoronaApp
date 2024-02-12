@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Info">
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/black" />-->
+
+    <!-- Creamos un ConstraintLayout en el que meter la imagen, para controlar el margen superior
+    que deja sin hardcodearlo -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Usamos Guideline para controlar los margenes y posicionamiento de la imagen
+         usando porcentajes, y que se pueda ajustar automáticamente a cada dispositivo-->
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/startVerticalGuideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.25" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/endVerticalGuideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.75" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/topGuideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/bottomGuideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="1" />
+
+                <!-- el width es 0dp para que se ajuste dinámicamente el taamaño a lo dictado
+         por los márgenes del ConstraintLayout-->
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/logodesc"
+
+                    android:src="@drawable/logo2"
+                    app:layout_constraintBottom_toTopOf="@+id/bottomGuideline"
+                    app:layout_constraintEnd_toStartOf="@+id/endVerticalGuideline"
+                    app:layout_constraintStart_toEndOf="@+id/startVerticalGuideline"
+                    app:layout_constraintTop_toTopOf="@+id/topGuideline" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/medidas"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                app:layout_constraintTop_toBottomOf="@id/bottomGuideline"
+                android:layout_marginTop="10dp"
+                android:text="@string/medida1" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/startVerticalGuideline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.25" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/topGuideline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/endVerticalGuideline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.75" />
+
+            <ImageView
+                android:id="@+id/logo_consejos"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/logodesc2"
+                android:src="@drawable/logo_consejos"
+                app:layout_constraintEnd_toStartOf="@+id/endVerticalGuideline2"
+                app:layout_constraintStart_toEndOf="@+id/startVerticalGuideline2"
+                app:layout_constraintTop_toTopOf="@+id/topGuideline2"
+                android:layout_marginTop="10dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/header1"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/header1" />
+
+            <TextView
+                android:id="@+id/consejos1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:text="@string/consejos1"
+                app:layout_constraintTop_toBottomOf="@id/header1" />
+
+            <TextView
+                android:id="@+id/header2"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/header2" />
+
+            <TextView
+                android:id="@+id/consejos2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:text="@string/consejos2"
+                app:layout_constraintTop_toBottomOf="@id/header2" />
+
+            <TextView
+                android:id="@+id/header3"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/header3" />
+
+            <TextView
+                android:id="@+id/consejos3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:text="@string/consejos3"
+                app:layout_constraintTop_toBottomOf="@id/header3" />
+
+            <TextView
+                android:id="@+id/header4"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/header4" />
+
+            <TextView
+                android:id="@+id/consejos4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:text="@string/consejos4"
+                app:layout_constraintTop_toBottomOf="@id/header4"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

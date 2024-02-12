@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="consejos1">
+        <ul><b> • Guarde al menos 1 metro de distancia entre usted y otras personas.</b>\n\n</ul>
+        <ul><b> • Convierta el uso de la mascarilla en una parte normal de su interacción
+            con otras personas.</b>\n
+            Para que sean lo más eficaces posibles, es esencial utilizar, guardar, limpiar y
+            eliminar las mascarillas correctamente.\n\n</ul>
+        <ul> • Lávese las manos antes de ponerse la mascarilla, y también antes y después de
+            quitársela y cada vez que la toque.
+            Asegúrese de que le cubre la nariz, la boca y el mentón.\n\n</ul>
+        <ul> • Cuando se quite la mascarilla, guárdela en una bolsa de plástico limpia;
+            si es de tela lávela cada día y si es una mascarilla médica,
+            tírela a un cubo de basura.\n\n</ul>
+        <ul> • No utilice mascarillas con válvulas.\n\n</ul>
+    </string>
+
+    <string name="consejos2">
+        <ul><b> • Evite las 3 “C”: espacios Cerrados, Congestionados
+            o que entrañen Contactos cercanos.</b>\n
+            Se han notificado brotes en restaurantes, ensayos de coros, clases de gimnasia,
+            clubes nocturnos, oficinas y lugares de culto en los se han reunido personas,
+            con frecuencia en lugares interiores abarrotados en los que se suele hablar en
+            voz alta, gritar, resoplar o cantar. \n\n</ul>
+        <ul><b> • Reúnase al aire libre.</b>\n
+            Las reuniones al aire libre son más seguras que en interiores, en particular si los
+            espacios interiores son pequeños y carecen de circulación de aire exterior.\n\n</ul>
+        <ul><b> • Evite lugares abarrotados o interiores\n\n</b></ul>
+    </string>
+
+    <string name="consejos3">
+        <ul><b> • Lávese periódica y cuidadosamente las manos con un gel hidroalcohólico
+            o con agua y jabón.</b>\n
+            Esto elimina los gérmenes que pudieran estar en sus manos, incluidos los virus.\n\n</ul>
+        <ul><b> • Evite tocarse los ojos, la nariz y la boca.</b>\n
+            Las manos tocan muchas superficies en las que podrían coger el virus.
+            Una vez contaminadas, pueden transportar el virus a los ojos, la nariz o la boca.
+            Desde allí el virus puede entrar en el organismo e infectarlo.\n\n</ul>
+        <ul><b> • Al toser o estornudar cúbrase la boca y la nariz con el codo flexionado o con un pañuelo.\n</b>
+            Luego, tire inmediatamente el pañuelo en una papelera con tapa y lávese las manos.\n\n</ul>
+    </string>
+
+    <string name="consejos4">
+        <ul><b> • Conocer todos los síntomas de la COVID-19.</b>\n
+            Los síntomas más comunes de la COVID-19 son: fiebre, tos seca y cansancio.
+            Otros síntomas menos frecuentes que pueden afectar a algunos pacientes son:
+            pérdida del gusto o el olfato, dolores, dolor de cabeza, faringoamigdalitis,
+            congestión nasal, ojos enrojecidos, diarrea o erupción cutánea.\n\n</ul>
+        <ul><b> • Permanecer en casa en autoaislamiento, aun cuando tenga síntomas leves
+            tales como tos, dolor de cabeza y febrícula,</b>\n
+            hasta que se recupere. Llame y solicite orientación a su dispensador o
+            servicio telefónico de atención de salud. Pida que alguien le lleve lo que necesite.
+            Si tiene que salir de su casa o necesita que alguien esté con usted, póngase una
+            mascarilla médica para no infectar a otras personas.\n\n</ul>
+        <ul><b> • Si tiene fiebre, tos y dificultad para respirar busque atención médica
+            de inmediato. Primeramente llame por teléfono, si puede,\n</b>
+            y siga las instrucciones de su autoridad sanitaria local.\n\n</ul>
+    </string>
+
+
+</resources>
